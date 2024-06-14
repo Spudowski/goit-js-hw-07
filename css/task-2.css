@@ -1,0 +1,23 @@
+body {
+    padding: 0;
+}
+
+ul {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-row-gap: 48px;
+    grid-column-gap: 24px;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0 0 0
+}
+
+li {
+    list-style: none;
+    height: 300px;
+}
+
+img {
+    width: 360px;
+    height: 300px;
+}
