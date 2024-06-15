@@ -31,6 +31,7 @@ const createBoxes = amount => {
 
 const destroyBoxes = () => {
 	boxes.innerHTML = ''
+
 }
 
 btnCreate.addEventListener('click', () => {
@@ -39,8 +40,8 @@ btnCreate.addEventListener('click', () => {
 	boxes.append(...boxesToAdd)
 })
 
-console.log(inputNum.value)
 
 btnDestroy.addEventListener('click', () => {
 	destroyBoxes.call()
+	inputNum.value = null;
 })
